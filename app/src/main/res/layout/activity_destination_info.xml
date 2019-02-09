@@ -7,29 +7,68 @@
     android:minHeight="250dp"
     tools:context=".DestinationInfo">
 
-    <LinearLayout
+    <AbsoluteLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
+        <EditText
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_x="62dp"
+
+            android:layout_y="67dp"
+            android:hint="@string/enter_destination" />
+
+        <com.github.anastr.speedviewlib.DeluxeSpeedView
+            android:id="@+id/deluxeSpeedView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/gas"
             android:layout_gravity="center_horizontal"
-            />
+            android:layout_x="62dp"
+            android:layout_y="125dp"
+            android:paddingBottom="10dp"
+            tools:paddingTop="10dp" />
 
-        <EditText
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/button"
+            android:layout_width="77dp"
+            android:layout_height="36dp"
+            android:layout_x="149dp"
+            android:layout_y="313dp"
+            android:background="@android:color/black"
+            android:text="Gas"
+            android:textColor="@android:color/white" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="184dp"
             android:layout_height="wrap_content"
-            android:hint= "@string/enter_destination"
+            android:layout_gravity="center_vertical"
+            android:layout_x="99dp"
+            android:layout_y="413dp"
+            android:max="100" />
 
-            />
+        <TextView
+            android:id="@+id/textSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="183dp"
+            android:layout_y="443dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:text="50" />
+
+        <Button
+            android:id="@+id/ok"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="170dp"
+            android:layout_y="498dp"
+            android:text="@string/ok" />
 
 
-
-
-    </LinearLayout>
+    </AbsoluteLayout>
 
 
 

@@ -5,8 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CarInfo">
-
-
     <LinearLayout
 
         android:layout_width="match_parent"
@@ -91,6 +89,29 @@
             android:onClick="sendMessage1"
             android:layout_marginTop="40dp"
             android:text="Okay" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity = "center">
+            <RadioButton android:id="@+id/compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compact"/>
+            <RadioButton android:id="@+id/sedan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sedan"/>
+            <RadioButton android:id="@+id/suv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUV"/>
+            <RadioButton android:id="@+id/truck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Truck"/>
+        </RadioGroup>
+
 
 
 

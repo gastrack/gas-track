@@ -3,4 +3,5 @@
     <string name="desc">desc</string>
     <string name="destination">Destination</string>
     <string name="enter_destination">Enter destination</string>
+    <string name="ok">ok</string>
 </resources>
