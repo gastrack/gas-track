@@ -23,12 +23,13 @@
             android:text="year"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="@color/colorPrimary"
-            android:textSize="0.3in"
+            android:textSize="0.175in"
             android:textStyle="bold"
             android:typeface="serif"
             app:fontFamily="@font/signika_negative_light" />
 
         <EditText
+            android:id = "@+id/car_year"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -46,18 +47,29 @@
             android:text="make"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="@color/colorPrimary"
-            android:textSize="0.3in"
+            android:textSize="0.175in"
             android:textStyle="bold"
             android:typeface="serif"
             app:fontFamily="@font/signika_negative_light" />
 
         <EditText
+            android:id="@+id/edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:inputType="text"
             >
         </EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick"
+            android:layout_marginTop="40dp"
+            android:text="Search" />
+
 
         <TextView
             android:id="@+id/textView4"
@@ -69,7 +81,7 @@
             android:text="model"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="@color/colorPrimary"
-            android:textSize="0.3in"
+            android:textSize="0.175in"
             android:textStyle="bold"
             android:typeface="serif"
             app:fontFamily="@font/signika_negative_light" />
