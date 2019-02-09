@@ -13,6 +13,7 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/destinationEditText"
             android:layout_width="263dp"
             android:layout_height="wrap_content"
             android:layout_x="62dp"
