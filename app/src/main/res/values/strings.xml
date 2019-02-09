@@ -4,4 +4,6 @@
     <string name="destination">Destination</string>
     <string name="enter_destination">Enter destination</string>
     <string name="ok">ok</string>
+    <string name="notEnoughGas">You don\'t have enough gas to make it to your destination. Look out for gas stations along the way!</string>
+    <string name="EnoughGas">You have enough gas to get to your destination!</string>
 </resources>
