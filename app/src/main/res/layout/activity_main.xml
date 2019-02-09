@@ -12,7 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
 
 
         <TextView
@@ -24,24 +26,26 @@
             android:text="Welcome"
             android:textAppearance="@style/TextAppearance.AppCompat"
             android:textColor="@color/colorPrimary"
-            android:textSize="0.3in"
+            android:textSize="0.4in"
             android:textStyle="bold"
             android:typeface="serif"
             app:fontFamily="@font/signika_negative_light" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
             android:src="@drawable/logo1"
             android:layout_gravity="center_horizontal"
+
             />
 
         <Button
             android:id="@+id/button_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
             android:onClick="sendMessage"
+            android:textSize="30dp"
             android:text="Start" />
 
 
